@@ -1,4 +1,3 @@
-<script>
 document.addEventListener('DOMContentLoaded', function() {
     var userTags = phpVars.userTags;
     var contactId = phpVars.contactId;
@@ -52,8 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     console.log("Redirecting to:", redirectUrl); // For debugging purposes
-    
-    window.location.href = redirectUrl;
+    //use actual URL
+    //window.location.href = redirectUrl;
 });
 
-</script>
